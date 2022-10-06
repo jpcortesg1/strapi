@@ -1,0 +1,29 @@
+{
+  "kind": "collectionType",
+  "collectionName": "user_cruds",
+  "info": {
+    "singularName": "user-crud",
+    "pluralName": "user-cruds",
+    "displayName": "user-crud",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "birthDate": {
+      "type": "date",
+      "required": true
+    },
+    "identificationNumber": {
+      "type": "biginteger",
+      "unique": true,
+      "required": true
+    }
+  }
+}
